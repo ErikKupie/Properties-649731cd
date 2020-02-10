@@ -2,7 +2,6 @@
 
 class MyLogger 
 {
-    private $origin = "";
 
     public function setOrigin($text){
         $this->origin = $text;

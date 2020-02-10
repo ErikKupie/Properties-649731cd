@@ -5,7 +5,7 @@ class MyLogger
     private $origin = "";
 
     public function setOrigin($text){
-        $this->$origin = $text;
+        $this->origin = $text;
     }
 
     public function log ($message, $a){
@@ -41,7 +41,7 @@ class MyLogger
     }
 
     private function logWithTime ($message){
-        echo date("[Y-m-d H:m] ") . $this->$origin . " - " . $message;
+        echo date("[Y-m-d H:m] ") . $this->origin . " - " . $message;
     }
 
 }
